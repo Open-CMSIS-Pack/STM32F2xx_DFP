@@ -396,22 +396,12 @@
 
   <devices>
     <family Dfamily="STM32F2 Series" Dvendor="STMicroelectronics:13">
-      <processor Dcore="Cortex-M3" DcoreVersion="r2p1" Dfpu="0" Dmpu="1" Dendian="Little-endian"/>
+      <processor Dcore="Cortex-M3" DcoreVersion="r2p1" Dfpu="0" Dmpu="1" Dendian="Little-endian" Ddsp="NO_DSP"/>
 
       <book name="https://developer.arm.com/documentation/dui0552/latest" title="Cortex-M3 Generic User Guide"/>
 
       <description>
-The STM32F2 family incorporates high-speed embedded memories and an extensive range of enhanced I/Os and peripherals connected to two APB buses, three AHB buses and a 32-bit multi-AHB bus matrix.
-Typical applications include Motor drive and application control Medical equipment, Industrial applications: PLC, inverters, circuit breakers, Printers and scanners, Alarm systems, video intercom, and HVAC, Home audio appliances.
-
-  - Adaptive real-time memory accelerator (ART)
-  - LCD parallel interface, 8080/6800 modes
-  - Multi-layer bus matrix
-  - 5 V-tolerant I/Os
-  - Timer with quadrature (incremental) encoder input
-  - Parallel camera interface
-  - Analog true random number generator
-  - 96-bit unique ID
+High-speed STM32F2 MCUs with Arm Cortex-M3 core, MPU, 150 DMIPS at 120 MHz.
       </description>
 
       <sequences>
