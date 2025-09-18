@@ -1,4 +1,5 @@
 [![Version](https://img.shields.io/github/v/release/Open-CMSIS-Pack/STM32F2xx_DFP)](https://github.com/Open-CMSIS-Pack/STM32F2xx_DFP/releases/latest)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-green?label)](https://github.com/Open-CMSIS-Pack/STM32F2xx_DFP/blob/main/LICENSE)
 
 # STM32F2xx_DFP
 
@@ -31,7 +32,7 @@ Add this component to your *csolution project* to connect to CubeMX.
 
 ## Using the development repository
 
-This development repository can be used in a local directory and [mapped as software pack](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/build-tools.md#install-a-repository) using for example `cpackget` with:
+This development repository can be used in a local directory and [mapped as software pack](https://open-cmsis-pack.github.io/cmsis-toolbox/build-tools/#install-a-repository) using for example `cpackget` with:
 
     cpackget add <path>/Keil.STM32F2xx_DFP.pdsc
 

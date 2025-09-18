@@ -15,6 +15,7 @@
   <releases>
     <release version="3.0.1-dev">
       Active development ...
+      Updated documentation references
     </release>
     <release version="2.11.0" date="2024-03-27">
       Updated STM32Cube FW to STM32Cube_FW_F2_V1.9.4 (HAL V1.2.8).

@@ -51,7 +51,7 @@ The [VS Code Arm CMSIS Solution](https://marketplace.visualstudio.com/items?item
 
 > **Note:**
 >
-> Refer to [CMSIS-Toolbox - Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/) for usage information. It contains useful hints, for example for the configuration of an [RTOS](  https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/#add-rtos).
+> Refer to [CMSIS-Toolbox - Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX) for usage information. It contains useful hints, for example for the configuration of an [RTOS](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/#adding-an-rtos).
 
 ## Usage in uVision
 
