@@ -9,6 +9,14 @@ solution:
     - compiler: GCC
     - compiler: IAR
 
+  # Miscellaneous toolchain controls directly passed to the tools
+  misc:
+    - for-compiler: AC6      # change to -gdwarf-4 for debugging using uVision
+      C-CPP:
+        - -gdwarf-5
+      ASM:
+        - -gdwarf-5
+
   # List the packs that define the device and/or board.
   packs:
     - pack: Keil::STM32F2xx_DFP
