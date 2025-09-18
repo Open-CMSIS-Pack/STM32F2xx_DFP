@@ -15,6 +15,7 @@
   <releases>
     <release version="3.0.1-dev">
       Active development ...
+      Updated debug configuration files
       Updated documentation references
       Updated Templates:
       - Added DWARF-5 debug information
@@ -773,10 +774,10 @@ Typical applications include Motor drive and application control Medical equipme
         <compile  define="STM32F205xx"/>
         <debug svd="CMSIS/SVD/STM32F205.svd"/>
 
-        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf">
+        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf" version="1.0.1">
           __var DbgMCU_CR      = 0x00000007;   // DBGMCU_CR: DBG_SLEEP, DBG_STOP, DBG_STANDBY
-          __var DbgMCU_APB1_Fz = 0x00000000;   // DGBMCU_APB1_FZ: All Peripherals Operate as in Normal Mode
-          __var DbgMCU_APB2_Fz = 0x00000000;   // DGBMCU_APB2_FZ: All Peripherals Operate as in Normal Mode
+          __var DbgMCU_APB1_Fz = 0x06E019FF;   // DGBMCU_APB1_FZ: Configure APB1 peripheral freeze behavior
+          __var DbgMCU_APB2_Fz = 0x00070003;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var TraceClk_Pin   = 0x00040002;   // PE2
           __var TraceD0_Pin    = 0x00040003;   // PE3
           __var TraceD1_Pin    = 0x00040004;   // PE4
@@ -1005,10 +1006,10 @@ Typical applications include Motor drive and application control Medical equipme
         <compile  define="STM32F207xx"/>
         <debug svd="CMSIS/SVD/STM32F207.svd"/>
 
-        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf">
+        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf" version="1.0.1">
           __var DbgMCU_CR      = 0x00000007;   // DBGMCU_CR: DBG_SLEEP, DBG_STOP, DBG_STANDBY
-          __var DbgMCU_APB1_Fz = 0x00000000;   // DGBMCU_APB1_FZ: All Peripherals Operate as in Normal Mode
-          __var DbgMCU_APB2_Fz = 0x00000000;   // DGBMCU_APB2_FZ: All Peripherals Operate as in Normal Mode
+          __var DbgMCU_APB1_Fz = 0x06E019FF;   // DGBMCU_APB1_FZ: Configure APB1 peripheral freeze behavior
+          __var DbgMCU_APB2_Fz = 0x00070003;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var TraceClk_Pin   = 0x00040002;   // PE2
           __var TraceD0_Pin    = 0x00040003;   // PE3
           __var TraceD1_Pin    = 0x00040004;   // PE4
@@ -1204,10 +1205,10 @@ Typical applications include Motor drive and application control Medical equipme
         <compile  define="STM32F215xx"/>
         <debug svd="CMSIS/SVD/STM32F215.svd"/>
 
-        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf">
+        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf" version="1.0.1">
           __var DbgMCU_CR      = 0x00000007;   // DBGMCU_CR: DBG_SLEEP, DBG_STOP, DBG_STANDBY
-          __var DbgMCU_APB1_Fz = 0x00000000;   // DGBMCU_APB1_FZ: All Peripherals Operate as in Normal Mode
-          __var DbgMCU_APB2_Fz = 0x00000000;   // DGBMCU_APB2_FZ: All Peripherals Operate as in Normal Mode
+          __var DbgMCU_APB1_Fz = 0x06E019FF;   // DGBMCU_APB1_FZ: Configure APB1 peripheral freeze behavior
+          __var DbgMCU_APB2_Fz = 0x00070003;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var TraceClk_Pin   = 0x00040002;   // PE2
           __var TraceD0_Pin    = 0x00040003;   // PE3
           __var TraceD1_Pin    = 0x00040004;   // PE4
@@ -1317,10 +1318,10 @@ Typical applications include Motor drive and application control Medical equipme
         <compile  define="STM32F217xx"/>
         <debug svd="CMSIS/SVD/STM32F217.svd"/>
 
-        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf">
+        <debugvars configfile="CMSIS/Debug/STM32F205_207_215_217.dbgconf" version="1.0.1">
           __var DbgMCU_CR      = 0x00000007;   // DBGMCU_CR: DBG_SLEEP, DBG_STOP, DBG_STANDBY
-          __var DbgMCU_APB1_Fz = 0x00000000;   // DGBMCU_APB1_FZ: All Peripherals Operate as in Normal Mode
-          __var DbgMCU_APB2_Fz = 0x00000000;   // DGBMCU_APB2_FZ: All Peripherals Operate as in Normal Mode
+          __var DbgMCU_APB1_Fz = 0x06E019FF;   // DGBMCU_APB1_FZ: Configure APB1 peripheral freeze behavior
+          __var DbgMCU_APB2_Fz = 0x00070003;   // DGBMCU_APB2_FZ: Configure APB2 peripheral freeze behavior
           __var TraceClk_Pin   = 0x00040002;   // PE2
           __var TraceD0_Pin    = 0x00040003;   // PE3
           __var TraceD1_Pin    = 0x00040004;   // PE4
